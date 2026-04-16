@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Queen Darıca | Darıca Premium Kadın Kuaförü</title>
+  <meta name="description" content="Queen Darıca Darıca Kocaeli bölgesinde saç boyama fön balyaj ve premium kadın kuaförü deneyimi sunar." />
+  <meta name="theme-color" content="#d8b46a" />
+  <meta property="og:title" content="Queen Darıca | Darıca Premium Kadın Kuaförü" />
+  <meta property="og:description" content="Queen Darıca için hazırlanan ultra premium tek sayfa kadın kuaförü web sitesi." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="format-detection" content="telephone=yes" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#110c09;
+      --bg-soft:#1a120d;
+      --card:rgba(255,255,255,.05);
+      --stroke:rgba(255,230,189,.14);
+      --text:#fff9f1;
+      --muted:#e3d3c1;
+      --primary:#d8b46a;
+      --primary-2:#f7e7be;
+      --glow:rgba(216,180,106,.24);
+      --shadow:0 24px 70px rgba(0,0,0,.38);
+      --container:min(1200px, calc(100% - 30px));
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:'Inter',system-ui,sans-serif;color:var(--text);background:radial-gradient(circle at 14% 0%, rgba(216,180,106,.16), transparent 26%), radial-gradient(circle at 86% 12%, rgba(255,255,255,.06), transparent 20%), linear-gradient(180deg, #110c09 0%, #1b140f 38%, #100b09 100%);overflow-x:hidden}
+    body::before{content:'';position:fixed;inset:0;pointer-events:none;opacity:.22;background:linear-gradient(rgba(255,227,189,.025) 1px, transparent 1px), linear-gradient(90deg, rgba(255,227,189,.025) 1px, transparent 1px);background-size:80px 80px;mask-image:radial-gradient(circle at center, black 28%, transparent 84%)}
+    a{text-decoration:none;color:inherit}
+    .container{width:var(--container);margin-inline:auto}
+    .section{padding:110px 0;position:relative}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:999px;border:1px solid var(--stroke);background:rgba(255,248,235,.04);backdrop-filter:blur(16px);color:var(--primary-2);font-size:.74rem;letter-spacing:.28em;text-transform:uppercase}
+    .eyebrow::before{content:'';width:8px;height:8px;border-radius:50%;background:linear-gradient(135deg,var(--primary),var(--primary-2));box-shadow:0 0 20px var(--glow)}
+    .section-title{font-family:'Playfair Display',serif;font-size:clamp(2.9rem,5vw,5.4rem);line-height:.94;margin:18px 0 16px}
+    .section-copy{max-width:760px;color:var(--muted);font-size:1.03rem;line-height:1.9}
+    .divider{height:1px;width:100%;background:linear-gradient(90deg,transparent,rgba(255,230,189,.2),transparent);margin:34px 0 0}
+
+    .nav{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:1000;width:min(1180px,calc(100% - 16px));transition:transform .35s ease, opacity .35s ease}
+    .nav.hidden{transform:translateX(-50%) translateY(-140%);opacity:0}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 18px;border-radius:24px;background:rgba(16,12,9,.68);border:1px solid var(--stroke);backdrop-filter:blur(18px);box-shadow:var(--shadow)}
+    .brand{display:flex;align-items:center;gap:14px;min-width:0}
+    .brand-mark{width:52px;height:52px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg, rgba(216,180,106,.26), rgba(255,255,255,.05));border:1px solid rgba(255,230,189,.14);font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:var(--primary-2);position:relative;overflow:hidden}
+    .brand-mark::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg, transparent 0 35%, rgba(255,255,255,.16) 48%, transparent 64%);transform:translateX(-130%);animation:shine 4.8s linear infinite}
+    @keyframes shine{to{transform:translateX(130%)}}
+    .brand-text strong{display:block;font-size:.94rem;letter-spacing:.16em;text-transform:uppercase}
+    .brand-text span{display:block;font-size:.8rem;color:var(--muted);margin-top:4px}
+    .nav-links{display:flex;gap:20px;flex-wrap:wrap}
+    .nav-links a{font-size:.93rem;position:relative}
+    .nav-links a::after{content:'';position:absolute;left:0;bottom:-6px;width:100%;height:1px;background:linear-gradient(90deg,transparent,var(--primary),transparent);transform:scaleX(0);transition:transform .3s ease}
+    .nav-links a:hover::after{transform:scaleX(1)}
+    .nav-cta{display:flex;gap:10px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:15px 22px;border-radius:999px;font-weight:800;font-size:.94rem;border:none;cursor:pointer;transition:transform .3s ease, box-shadow .3s ease, background .3s ease}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:linear-gradient(135deg,var(--primary),#b98f45);color:#1a1208;box-shadow:0 12px 28px rgba(216,180,106,.24)}
+    .btn-secondary{background:rgba(255,248,235,.05);border:1px solid var(--stroke);color:var(--text)}
+
+    .hero{min-height:100svh;padding:128px 0 80px;display:grid;place-items:center;position:relative;overflow:hidden}
+    .hero::before,.hero::after{content:'';position:absolute;border-radius:50%;pointer-events:none}
+    .hero::before{width:580px;height:580px;right:-150px;top:30px;background:radial-gradient(circle, rgba(216,180,106,.18), transparent 62%);animation:floatOrb 9s ease-in-out infinite}
+    .hero::after{width:460px;height:460px;left:-120px;bottom:-50px;background:radial-gradient(circle, rgba(255,245,225,.05), transparent 60%);animation:floatOrb 11s ease-in-out infinite reverse}
+    @keyframes floatOrb{50%{transform:translateY(22px) translateX(-8px)}}
+    .hero-grid{display:grid;grid-template-columns:1.03fr .97fr;gap:26px;align-items:center}
+    .hero-copy h1{font-family:'Playfair Display',serif;font-size:clamp(3.6rem,8vw,7.3rem);line-height:.86;margin:18px 0 18px;letter-spacing:.01em}
+    .hero-copy p{max-width:650px;color:var(--muted);font-size:1.05rem;line-height:1.95}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
+    .hero-points{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}
+    .point{padding:18px;border-radius:22px;background:rgba(255,248,235,.04);border:1px solid var(--stroke);backdrop-filter:blur(14px)}
+    .point strong{display:block;font-size:1.1rem;margin-bottom:6px}
+    .point span{color:var(--muted);font-size:.9rem;line-height:1.7}
+
+    .hero-visual{display:grid;gap:16px;align-items:start}
+    .hero-tags{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .info-chip{padding:16px 18px;border-radius:22px;background:rgba(255,248,235,.045);border:1px solid var(--stroke);box-shadow:var(--shadow)}
+    .info-chip strong{display:block;font-size:1rem;margin-bottom:8px}
+    .info-chip span{display:block;color:var(--muted);line-height:1.7;font-size:.92rem}
+    .hero-card{position:relative;min-height:650px;padding:30px;border-radius:36px;background:linear-gradient(180deg, rgba(255,248,235,.09), rgba(255,248,235,.03));border:1px solid rgba(255,230,189,.14);box-shadow:var(--shadow);overflow:hidden;transition:transform .25s ease}
+    .hero-card::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg, rgba(255,255,255,.16), transparent 24%), radial-gradient(circle at 72% 18%, rgba(216,180,106,.25), transparent 22%), linear-gradient(180deg, rgba(216,180,106,.12), rgba(255,255,255,.02) 58%, rgba(8,8,8,.08))}
+    .hero-card::after{content:'';position:absolute;inset:18px;border-radius:28px;border:1px solid rgba(255,230,189,.1);opacity:.55}
+    .hero-card-inner{position:relative;z-index:2;height:100%;display:flex;flex-direction:column;justify-content:space-between}
+    .card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;flex-wrap:wrap}
+    .mini-badge{padding:10px 14px;border-radius:999px;background:rgba(255,248,235,.06);border:1px solid rgba(255,230,189,.1);font-size:.82rem;color:#fff1d0}
+    .card-main{padding-top:52px}
+    .card-main h2{font-family:'Playfair Display',serif;font-size:clamp(2.6rem,4vw,4.5rem);line-height:.93;margin:0 0 14px}
+    .card-main p{max-width:400px;color:#f2e4d1;line-height:1.85}
+    .service-mini-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:28px}
+    .service-mini{padding:18px;border-radius:24px;background:rgba(255,248,235,.05);border:1px solid rgba(255,230,189,.09);transition:transform .25s ease,border-color .25s ease}
+    .service-mini:hover{transform:translateY(-3px);border-color:rgba(216,180,106,.34)}
+    .service-mini strong{display:block;margin-bottom:8px}
+    .service-mini span{display:block;color:var(--muted);font-size:.9rem;line-height:1.7}
+
+    .trust-wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:-28px;position:relative;z-index:5}
+    .trust-box{padding:22px;border-radius:24px;background:rgba(255,248,235,.045);border:1px solid var(--stroke);box-shadow:var(--shadow)}
+    .trust-box strong{display:block;font-family:'Playfair Display',serif;font-size:1.45rem;margin-bottom:8px}
+    .trust-box span{color:var(--muted);line-height:1.75}
+
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}
+    .panel{padding:30px;border-radius:30px;background:linear-gradient(180deg, rgba(255,248,235,.05), rgba(255,248,235,.03));border:1px solid var(--stroke);box-shadow:var(--shadow)}
+    .feature-list{display:grid;gap:16px;margin-top:24px}
+    .feature{display:grid;grid-template-columns:auto 1fr;gap:14px;padding:16px 0;border-bottom:1px solid rgba(255,230,189,.07)}
+    .feature:last-child{border-bottom:none}
+    .feature-icon{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;background:rgba(216,180,106,.12);border:1px solid rgba(255,230,189,.08);color:var(--primary-2);font-weight:800}
+    .feature strong{display:block;margin-bottom:6px}
+    .feature p{margin:0;color:var(--muted);line-height:1.8}
+    .ba-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:22px}
+    .ba-card{padding:24px;border-radius:24px;background:rgba(255,248,235,.04);border:1px solid rgba(255,230,189,.08);position:relative;overflow:hidden}
+    .ba-card::before{content:'';position:absolute;inset:auto -8% -45% 34%;height:180px;background:radial-gradient(circle, rgba(216,180,106,.2), transparent 62%)}
+    .ba-card strong{position:relative;display:block;font-size:1.08rem;margin-bottom:10px}
+    .ba-card p{position:relative;margin:0;color:var(--muted);line-height:1.8}
+
+    .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+    .service-card{padding:28px;border-radius:28px;background:rgba(255,248,235,.04);border:1px solid rgba(255,230,189,.08);position:relative;overflow:hidden;transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}
+    .service-card:hover{transform:translateY(-6px);border-color:rgba(216,180,106,.34);box-shadow:0 18px 36px rgba(0,0,0,.28)}
+    .service-card::after{content:'';position:absolute;right:-20px;top:-20px;width:130px;height:130px;border-radius:50%;background:radial-gradient(circle, rgba(216,180,106,.15), transparent 65%)}
+    .service-index{font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;color:var(--primary-2)}
+    .service-card h3{font-size:1.2rem;margin:12px 0 10px}
+    .service-card p{margin:0;color:var(--muted);line-height:1.8}
+
+    .review-layout{display:grid;grid-template-columns:1.08fr .92fr;gap:24px}
+    .review-main{padding:34px;border-radius:34px;background:linear-gradient(180deg, rgba(255,248,235,.06), rgba(255,248,235,.03));border:1px solid var(--stroke);box-shadow:var(--shadow)}
+    .review-main h3{font-family:'Playfair Display',serif;font-size:3.15rem;line-height:.95;margin:0 0 12px}
+    .review-main p{color:var(--muted);line-height:1.9}
+    .score{display:flex;align-items:flex-end;gap:14px;margin:24px 0 8px}
+    .score strong{font-family:'Playfair Display',serif;font-size:4.8rem;line-height:.8}
+    .score span{color:var(--muted)}
+    .review-list{display:grid;gap:16px}
+    .review-card{padding:22px;border-radius:24px;background:rgba(255,248,235,.04);border:1px solid rgba(255,230,189,.08)}
+    .review-card strong{display:block;margin-bottom:10px}
+    .review-card p{margin:0;color:var(--muted);line-height:1.8}
+
+    .gallery-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:18px;margin-top:34px}
+    .gallery-main,.gallery-stack>div{position:relative;border-radius:30px;overflow:hidden;border:1px solid rgba(255,230,189,.08);box-shadow:var(--shadow);background:linear-gradient(140deg, rgba(255,255,255,.12), rgba(255,248,235,.03)), radial-gradient(circle at 18% 18%, rgba(216,180,106,.26), transparent 22%), linear-gradient(180deg,#2b1d10 0%, #17100b 100%)}
+    .gallery-main{min-height:580px}
+    .gallery-stack{display:grid;gap:18px}
+    .gallery-stack>div{min-height:280px}
+    .gallery-overlay{position:absolute;left:18px;right:18px;bottom:18px;padding:18px;border-radius:20px;background:rgba(16,12,9,.42);border:1px solid rgba(255,230,189,.08);backdrop-filter:blur(16px)}
+    .gallery-overlay strong{display:block;font-size:1.08rem;margin-bottom:6px}
+    .gallery-overlay span{display:block;color:var(--muted);line-height:1.7}
+
+    .cta-band{padding:30px;border-radius:32px;background:linear-gradient(135deg, rgba(216,180,106,.18), rgba(255,248,235,.04));border:1px solid var(--stroke);box-shadow:var(--shadow);display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+    .cta-band h3{font-family:'Playfair Display',serif;font-size:clamp(2.2rem,3vw,3.7rem);line-height:.94;margin:0 0 8px}
+    .cta-band p{margin:0;color:var(--muted);line-height:1.8;max-width:650px}
+
+    .faq-list{display:grid;gap:16px;margin-top:30px}
+    .faq-item{border:1px solid rgba(255,230,189,.08);border-radius:24px;background:rgba(255,248,235,.03);overflow:hidden}
+    .faq-question{padding:22px 24px;font-weight:800;display:flex;justify-content:space-between;gap:12px;cursor:pointer}
+    .faq-answer{max-height:0;overflow:hidden;transition:max-height .35s ease;padding:0 24px}
+    .faq-answer p{margin:0;padding-bottom:22px;color:var(--muted);line-height:1.8}
+    .faq-item.active .faq-answer{max-height:220px}
+
+    .contact-grid{display:grid;grid-template-columns:1fr .95fr;gap:24px;margin-top:34px}
+    .contact-card{padding:30px;border-radius:30px;background:rgba(255,248,235,.04);border:1px solid rgba(255,230,189,.08);box-shadow:var(--shadow)}
+    .contact-list{display:grid;gap:16px;margin-top:22px}
+    .contact-item{padding:16px 0;border-bottom:1px solid rgba(255,230,189,.08)}
+    .contact-item:last-child{border-bottom:none}
+    .contact-item span{display:block;color:var(--primary-2);font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;margin-bottom:8px}
+    .contact-item strong,.contact-item a{font-size:1.02rem;line-height:1.7;word-break:break-word}
+    .map-wrap{overflow:hidden;border-radius:30px;border:1px solid rgba(255,230,189,.08);box-shadow:var(--shadow);min-height:100%}
+    .map-wrap iframe{width:100%;height:100%;min-height:520px;border:0}
+
+    footer{padding:34px 0 110px;color:var(--muted)}
+    .footer-wrap{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center;padding-top:22px;border-top:1px solid rgba(255,230,189,.08)}
+    .footer-wrap strong{color:var(--text)}
+    .sticky-actions{position:fixed;right:18px;bottom:18px;z-index:1200;display:grid;gap:12px}
+    .sticky-actions a{width:58px;height:58px;border-radius:18px;display:grid;place-items:center;background:rgba(16,12,9,.74);border:1px solid rgba(255,230,189,.1);backdrop-filter:blur(18px);box-shadow:var(--shadow);font-size:1.15rem}
+    .reveal{opacity:0;transform:translateY(28px) scale(.985);transition:opacity .8s ease, transform .8s ease, filter .8s ease;filter:blur(8px)}
+    .reveal.visible{opacity:1;transform:translateY(0) scale(1);filter:blur(0)}
+
+    @media (max-width:1100px){.hero-grid,.split,.review-layout,.gallery-grid,.contact-grid{grid-template-columns:1fr}.services-grid{grid-template-columns:repeat(2,1fr)}.trust-wrap{grid-template-columns:repeat(2,1fr)}.nav-links{display:none}}
+    @media (max-width:760px){.section{padding:86px 0}.hero{padding-top:110px}.hero-points,.hero-tags,.service-mini-grid,.ba-grid,.services-grid,.trust-wrap{grid-template-columns:1fr}.hero-card{min-height:auto;padding:22px}.card-main{padding-top:24px}.nav{top:10px;width:calc(100% - 12px)}.nav-inner{padding:12px 14px;border-radius:18px}.brand-text span{display:none}.nav-cta .btn-secondary{display:none}.sticky-actions{right:12px;bottom:12px}.sticky-actions a{width:54px;height:54px}.map-wrap iframe{min-height:420px}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"HairSalon",
+    "name":"Queen Darıca",
+    "telephone":"+90 546 251 31 06",
+    "url":"https://www.instagram.com/queendarica/",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"41 Bağlarbaşı",
+      "addressLocality":"Darıca",
+      "addressRegion":"Kocaeli",
+      "addressCountry":"TR"
+    },
+    "aggregateRating":{
+      "@type":"AggregateRating",
+      "ratingValue":"4.7",
+      "reviewCount":"36"
+    },
+    "sameAs":["https://www.instagram.com/queendarica/"]
+  }
+  </script>
+</head>
+<body>
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="brand" aria-label="Queen Darıca">
+        <div class="brand-mark">QD</div>
+        <div class="brand-text">
+          <strong>queen darıca</strong>
+          <span>darıca kadın kuaförü</span>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a href="#about">salon</a>
+        <a href="#services">hizmetler</a>
+        <a href="#reviews">yorumlar</a>
+        <a href="#gallery">galeri</a>
+        <a href="#faq">sss</a>
+        <a href="#contact">iletişim</a>
+      </div>
+      <div class="nav-cta">
+        <a class="btn btn-secondary" href="tel:+905462513106">ara</a>
+        <a class="btn btn-primary" href="https://wa.me/905462513106?text=merhaba%20queen%20dar%C4%B1ca%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener">whatsapp</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-copy reveal">
+        <span class="eyebrow">ışıltılı premium salon deneyimi</span>
+        <h1>queen ruhu<br>ışıltılı dokunuş</h1>
+        <p>
+          queen darıca için renkleri tamamen değiştirdim ve cemredeki daha genç sert stil yerine burada daha queen daha parlak daha zarif ama yine güçlü bir lüks kadın kuaförü hissi kurdum
+          fön boya ve balyaj gibi ana hizmetleri daha şık bir vitrin diliyle öne taşıdım
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://wa.me/905462513106?text=merhaba%20queen%20dar%C4%B1ca%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener">randevu oluştur</a>
+          <a class="btn btn-secondary" href="#services">hizmetleri incele</a>
+        </div>
+        <div class="hero-points">
+          <div class="point"><strong>4 7 puan</strong><span>36 yorumla güçlü ve daha güven veren müşteri algısı</span></div>
+          <div class="point"><strong>queen dokunuşu</strong><span>ışıltılı renkler düzenli fön ve bakımlı premium görünüm</span></div>
+          <div class="point"><strong>darıca</strong><span>bağlarbaşı bölgesinde kolay ulaşım hızlı randevu akışı</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-tags">
+          <div class="info-chip"><strong>renk yenileme</strong><span>saç boyama ve balyaj ile daha canlı daha iddialı sonuç</span></div>
+          <div class="info-chip"><strong>fön odaklı görünüm</strong><span>günlük şıklık ve güçlü final görünümü için düzenli stil</span></div>
+          <div class="info-chip"><strong>güven veren profil</strong><span>36 yorumlu işletme algısını premium tasarımla destekleyen yapı</span></div>
+        </div>
+        <div class="hero-card" id="parallax-card">
+          <div class="hero-card-inner">
+            <div class="card-top">
+              <div style="display:flex;gap:10px;flex-wrap:wrap">
+                <span class="mini-badge">fön</span>
+                <span class="mini-badge">balyaj</span>
+                <span class="mini-badge">boya</span>
+              </div>
+              <span class="mini-badge">instagram queendarica</span>
+            </div>
+            <div class="card-main">
+              <h2>ışıltılı tonlar<br>zarif bitiş</h2>
+              <p>
+                queen darıca için kurulan yeni görsel sistem daha altın tonlu daha lüks ve daha zarif bir premium kadın kuaförü hissi verir bu yüzden animasyon tarafını da parıltılı geçişlerle değiştirdim
+              </p>
+              <div class="service-mini-grid">
+                <div class="service-mini"><strong>balyaj ve boya</strong><span>renk geçişleri ile yüzü aydınlatan daha dikkat çekici sonuçlar</span></div>
+                <div class="service-mini"><strong>fön ve son dokunuş</strong><span>günlük şıklık ya da davet görünümü için temiz ve parlak bitiş</span></div>
+                <div class="service-mini"><strong>premium kadın kuaförü</strong><span>daha zarif daha düzenli ve güven veren salon algısı</span></div>
+                <div class="service-mini"><strong>kolay iletişim</strong><span>telefon whatsapp instagram ve harita tek akışta hazır</span></div>
+              </div>
+            </div>
+            <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap">
+              <span class="mini-badge">çarşamba pazartesi açık</span>
+              <span class="mini-badge">salı kapalı</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container trust-wrap reveal">
+    <div class="trust-box"><strong>daha lüks renk paleti</strong><span>eski pembemsi yapı yerine altın tonlu queen hissi veren bir premium sistem kuruldu</span></div>
+    <div class="trust-box"><strong>animasyonlar değişti</strong><span>reveal tarafı blur artı yumuşak yakınlaşma ile daha pahalı bir his veriyor</span></div>
+    <div class="trust-box"><strong>yorum gücü yüksek</strong><span>36 değerlendirme olduğu için güven bölümünü daha güçlü kurguladım</span></div>
+    <div class="trust-box"><strong>dönüşüm odaklı akış</strong><span>müşteri arama whatsapp ve konuma en kısa akışla ulaşabiliyor</span></div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container split">
+      <div class="reveal">
+        <span class="eyebrow">salon kimliği</span>
+        <h2 class="section-title">daha zarif daha parlak<br>daha queen bir premium çizgi</h2>
+        <p class="section-copy">
+          queen darıca ismine göre vibe tarafını doğrudan isimden türettim ve daha taçlı daha ışıltılı daha düzenli bir salon kimliği kurdum
+          burada amaç daha genç sert görünmek değil daha bakımlı daha güvenli ve daha premium görünmekti
+        </p>
+        <div class="feature-list">
+          <div class="feature">
+            <div class="feature-icon">01</div>
+            <div><strong>saç boyama ve renk geçişleri</strong><p>saç boyama ve balyaj işlemleri ile daha canlı daha premium ton geçişleri</p></div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">02</div>
+            <div><strong>fön ve günlük şıklık</strong><p>hızlı toparlanan düzenli ve temiz görünüm seven müşteri için güçlü final hizmeti</p></div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">03</div>
+            <div><strong>güven odaklı salon algısı</strong><p>4.7 puan ve 36 yorum ile birlikte premium site yapısı daha güçlü ilk izlenim sağlar</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="panel reveal">
+        <span class="eyebrow">öncesi sonrası hissi</span>
+        <div class="ba-grid">
+          <div class="ba-card"><strong>öncesi</strong><p>sönük yıpranmış ya da sıradan duran saç görünümü</p></div>
+          <div class="ba-card"><strong>sonrası</strong><p>daha parlak daha düzenli daha bakımlı ve daha queen hissettiren sonuç</p></div>
+          <div class="ba-card"><strong>renk etkisi</strong><p>balyaj ve boya ile daha sıcak ve canlı bir yüz çerçevesi</p></div>
+          <div class="ba-card"><strong>bitiş etkisi</strong><p>fön ve son dokunuşlarla daha temiz daha premium görünüm</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">hizmet menüsü</span>
+        <h2 class="section-title">queen darıca için<br>premium hizmet kurgusu</h2>
+        <p class="section-copy">verdiğin bilgilere göre hizmet menüsünü bu işletmenin vibeına uygun daha temiz daha lüks bir satış diline çevirdim</p>
+        <div class="divider"></div>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal"><div class="service-index">01</div><h3>saç boyama</h3><p>tonu tazeleyen daha canlı ve premium görünüm sağlayan renk yenileme işlemleri</p></div>
+        <div class="service-card reveal"><div class="service-index">02</div><h3>balyaj uygulamaları</h3><p>yüzü aydınlatan geçişli renk yapısıyla daha dikkat çekici sonuçlar</p></div>
+        <div class="service-card reveal"><div class="service-index">03</div><h3>fön ve şekillendirme</h3><p>bakımlı günlük görünümden özel güne uzanan temiz final dokunuşları</p></div>
+        <div class="service-card reveal"><div class="service-index">04</div><h3>kadın kuaförü bakımı</h3><p>saçın genel görünümünü toparlayan düzen ve bakım odaklı işlemler</p></div>
+        <div class="service-card reveal"><div class="service-index">05</div><h3>özel gün hazırlığı</h3><p>daha şık daha zarif ve düzenli bir görünüm isteyen müşteriye uygun planlı hizmet akışı</p></div>
+        <div class="service-card reveal"><div class="service-index">06</div><h3>hızlı iletişim ve randevu</h3><p>telefon whatsapp instagram ve harita ile tek ekrandan kolay erişim</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="reviews">
+    <div class="container review-layout">
+      <div class="review-main reveal">
+        <span class="eyebrow">yorumlar ve güven</span>
+        <h3>güçlü yorum sayısı ile<br>daha oturmuş salon algısı</h3>
+        <p>burada artık az yorumlu yeni işletme gibi konuşmak yerine 36 yorumlu daha yerleşik daha güven veren bir salon dili kullandım bu yüzden güven bloğu daha baskın hale geldi</p>
+        <div class="score"><strong>4 7</strong><span>36 değerlendirme<br>güven veren salon profili</span></div>
+        <a class="btn btn-primary" href="https://wa.me/905462513106?text=merhaba%20queen%20dar%C4%B1ca%20i%C3%A7in%20bilgi%20almak%20istiyorum" target="_blank" rel="noopener">bilgi al</a>
+      </div>
+      <div class="review-list">
+        <div class="review-card reveal"><strong>daha yerleşik marka hissi</strong><p>yorum sayısı sayesinde yeni işletme algısından çıkıp daha oturmuş salon havası veriyor</p></div>
+        <div class="review-card reveal"><strong>günlük şıklık odaklı</strong><p>fön ve renk hizmetleri düzenli müşteri dönüşü için avantajlı bir yapı kurar</p></div>
+        <div class="review-card reveal"><strong>isimle uyumlu vibe</strong><p>queen ismi altın tonlar ve zarif yazı sistemiyle daha güçlü çalışıyor</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">görsel vitrin</span>
+        <h2 class="section-title">renk ışıltı ve zarif<br>final görünümü için alan</h2>
+        <p class="section-copy">gerçek fotoğraflar geldiğinde özellikle balyaj boya ve fön sonuçları bu altın tonlu yapıda baya güçlü görünür</p>
+        <div class="divider"></div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-main reveal"><div class="gallery-overlay"><strong>balyaj ve premium renk geçişleri</strong><span>ana vitrin alanında sıcak tonlar ve parlak bitişler öne çıkar</span></div></div>
+        <div class="gallery-stack">
+          <div class="reveal"><div class="gallery-overlay"><strong>fön ve son dokunuş görünümü</strong><span>günlük şıklık ve temiz stil sonuçları için ayrılmış alan</span></div></div>
+          <div class="reveal"><div class="gallery-overlay"><strong>salon atmosferi ve müşteri anları</strong><span>queen algısını güçlendiren içeriklerle premium his daha da yükselir</span></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta-band reveal">
+        <div>
+          <h3>bakımlı ve dikkat çeken<br>bir görünüm için yaz</h3>
+          <p>saç boyama balyaj fön ya da saat bilgisi için whatsapp üzerinden hızlıca ulaşabilir randevunu oluşturabilirsin</p>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <a class="btn btn-primary" href="https://wa.me/905462513106?text=merhaba%20queen%20dar%C4%B1ca%20i%C3%A7in%20randevu%20olu%C5%9Fturmak%20istiyorum" target="_blank" rel="noopener">whatsapp ile yaz</a>
+          <a class="btn btn-secondary" href="tel:+905462513106">hemen ara</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">sık sorulanlar</span>
+        <h2 class="section-title">randevu öncesi temel<br>bilgiler</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item active reveal"><div class="faq-question">randevu nasıl alınır <span>+</span></div><div class="faq-answer"><p>telefonla arayarak ya da whatsapp üzerinden yazarak hızlı şekilde randevu oluşturulabilir</p></div></div>
+        <div class="faq-item reveal"><div class="faq-question">hangi günler açık <span>+</span></div><div class="faq-answer"><p>çarşamba perşembe cuma cumartesi ve pazartesi 09 00 ile 20 00 arası pazar 10 00 ile 19 30 arası açık salı kapalı</p></div></div>
+        <div class="faq-item reveal"><div class="faq-question">öne çıkan işlemler neler <span>+</span></div><div class="faq-answer"><p>saç boyama balyaj fön ve genel kadın kuaförü bakım hizmetleri öne çıkan başlıklar arasında</p></div></div>
+        <div class="faq-item reveal"><div class="faq-question">konuma ulaşım kolay mı <span>+</span></div><div class="faq-answer"><p>evet bağlarbaşı darıca konumunda yer alıyor harita üzerinden direkt yol tarifi alınabiliyor</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="reveal">
+        <span class="eyebrow">iletişim ve konum</span>
+        <h2 class="section-title">darıcada kolay ulaşım<br>hızlı randevu akışı</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <p class="section-copy" style="margin-top:0">queen darıca için iletişim alanını daha premium daha temiz ve daha güçlü dönüşüm odaklı kurdum</p>
+          <div class="contact-list">
+            <div class="contact-item"><span>telefon</span><a href="tel:+905462513106">0546 251 31 06</a></div>
+            <div class="contact-item"><span>instagram</span><a href="https://www.instagram.com/queendarica/" target="_blank" rel="noopener">@queendarica</a></div>
+            <div class="contact-item"><span>adres</span><strong>41 Bağlarbaşı 41300 Darıca Kocaeli</strong></div>
+            <div class="contact-item"><span>çalışma saatleri</span><strong>çarşamba perşembe cuma cumartesi pazartesi 09 00 20 00 pazar 10 00 19 30 salı kapalı</strong></div>
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px">
+            <a class="btn btn-primary" href="https://wa.me/905462513106?text=merhaba%20queen%20dar%C4%B1ca%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener">whatsapp</a>
+            <a class="btn btn-secondary" href="tel:+905462513106">ara</a>
+          </div>
+        </div>
+        <div class="map-wrap reveal">
+          <iframe title="Queen Darıca harita" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=41%20Ba%C4%9Flarba%C5%9F%C4%B1%2041300%20Dar%C4%B1ca%20Kocaeli&z=16&output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-wrap">
+        <div><strong>queen darıca</strong><br>darıca premium kadın kuaförü deneyimi</div>
+        <div>altın tonlu queen vibe ile yenilenmiş premium tek sayfa salon yapısı</div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="sticky-actions">
+    <a href="tel:+905462513106" aria-label="ara">☎</a>
+    <a href="https://wa.me/905462513106?text=merhaba%20queen%20dar%C4%B1ca%20i%C3%A7in%20randevu%20almak%20istiyorum" target="_blank" rel="noopener" aria-label="whatsapp">✦</a>
+  </div>
+
+  <script>
+    const revealEls = document.querySelectorAll('.reveal');
+    const io = new IntersectionObserver((entries)=>{entries.forEach((entry, index)=>{if(entry.isIntersecting){setTimeout(()=>entry.target.classList.add('visible'), index * 45)}})},{threshold:.12});
+    revealEls.forEach(el=>io.observe(el));
+    const faqs = document.querySelectorAll('.faq-item');
+    faqs.forEach(item=>{item.querySelector('.faq-question').addEventListener('click', ()=> item.classList.toggle('active'))});
+    const nav = document.getElementById('navbar');
+    let lastScroll = 0;
+    window.addEventListener('scroll', ()=>{
+      const current = window.pageYOffset;
+      if(current > lastScroll && current > 120) nav.classList.add('hidden'); else nav.classList.remove('hidden');
+      lastScroll = current <= 0 ? 0 : current;
+    });
+    const card = document.getElementById('parallax-card');
+    if (window.matchMedia('(min-width: 1025px)').matches) {
+      window.addEventListener('mousemove', (e)=>{
+        const x = (window.innerWidth / 2 - e.clientX) / 40;
+        const y = (window.innerHeight / 2 - e.clientY) / 40;
+        card.style.transform = `translate3d(${x}px, ${y}px, 0)`;
+      });
+    }
+  </script>
+</body>
+</html>
